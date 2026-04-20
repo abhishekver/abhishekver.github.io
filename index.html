@@ -1,75 +1,1288 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Abhishek Verma — Senior Software Engineer specializing in Data Comprehension, Agentic AI, LLM-driven extraction, and large-scale distributed backend systems. 6+ years across Intuit, JP Morgan, Locus.sh, HashedIn by Deloitte, and Airtel X-Labs.">
+    <meta name="author" content="Abhishek Verma">
+    <meta name="keywords" content="Abhishek Verma, Senior Software Engineer, Data Comprehension, Agentic AI, LLM, MCP, CUA, Google DocAI, AWS Textract, Java, Spring Boot, Kafka, Intuit, JP Morgan, Locus, portfolio">
+    <meta name="theme-color" content="#0a0b10">
 
-    <title>Abhishek Verma / Portfolio</title>
+    <title>Abhishek Verma · Senior Software Engineer · AI &amp; Backend Systems</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <!-- Font Awesome (icons for brand + principle tiles) -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-
+    <!-- Portfolio styles -->
+    <link href="css/portfolio.css?v=12" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Abhishek Verma</span>
-        <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
+<!-- Animated background glow layers -->
+<div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+<div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- Top nav -->
+<header class="nav" id="nav">
+    <a href="#top" class="nav-brand" aria-label="Home">
+        <span class="nav-brand-mark nav-brand-mark-photo">
+            <img src="img/profile.jpg" alt="" loading="eager" decoding="async">
+        </span>
+        <span class="nav-brand-text">Abhishek Verma</span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="nav-links" aria-label="Primary">
+        <a href="#work" data-nav>Work</a>
+        <a href="#skills" data-nav>Skills</a>
+        <a href="#thinking" data-nav>How I Think</a>
+        <a href="#beyond" data-nav>Beyond</a>
+        <a href="#education" data-nav>Education</a>
+        <a href="#contact" data-nav class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#experience">Professional Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#beyond-work">Beyond Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#awards">Awards & Specializations</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-            </li>
-        </ul>
+</header>
+
+<main id="top">
+
+    <!-- 1. HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-grid">
+        <div class="hero-inner">
+            <p class="hero-eyebrow" data-reveal>
+                <span class="hero-dot"></span>
+                Senior Software Engineer · Bangalore, India
+            </p>
+
+            <h1 class="hero-title">
+                <span class="hero-title-line" data-split>Abhishek</span>
+                <span class="hero-title-line hero-title-gradient" data-split>Verma.</span>
+            </h1>
+
+            <p class="hero-tagline hero-tagline-fluid" data-reveal>
+                I build <em>systems</em>, not features &mdash;
+                at the intersection of <span class="fluid-word">Agentic&nbsp;AI</span>,
+                <span class="fluid-word">LLM-driven data comprehension</span>, and
+                <span class="fluid-word">high-scale backend platforms</span>.
+            </p>
+        </div>
+
+        <aside class="hero-portrait" data-reveal aria-hidden="true">
+            <div class="hero-portrait-glow"></div>
+            <div class="hero-portrait-frame">
+                <img src="img/profile.jpg" alt="Abhishek Verma" loading="eager" decoding="async">
+            </div>
+            <div class="hero-portrait-badge">
+                <i class="fas fa-code" aria-hidden="true"></i>
+                <span>Building since I was a kid</span>
+            </div>
+        </aside>
+        </div>
+
+        <a href="#philosophy" class="scroll-cue" aria-label="Scroll">
+            <span class="scroll-cue-label">scroll</span>
+            <span class="scroll-cue-line"></span>
+        </a>
+    </section>
+
+    <!-- 2. PHILOSOPHY STRIP -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <p class="kicker" data-reveal>Operating principles</p>
+            <h2 class="philosophy-statement" data-reveal>
+                I focus on <span class="accent">impact over activity</span>.
+                I prefer building <span class="accent">systems</span>, not features.
+                I'm comfortable with <span class="accent">0&nbsp;→&nbsp;1</span> ambiguity,
+                and I think in terms of <span class="accent">leverage</span> —
+                automation, platforms, and abstractions that compound.
+            </h2>
+        </div>
+    </section>
+
+    <!-- 3. WORK -->
+    <section class="section" id="work">
+        <div class="container">
+            <header class="section-head">
+                <p class="kicker" data-reveal>What I've built</p>
+                <h2 class="section-title" data-reveal>The impact version.</h2>
+                <p class="section-sub" data-reveal>
+                    A walk through the work — told as <em>Problem · What I did · Impact · Why it matters</em>.
+                </p>
+            </header>
+        </div>
+
+        <!-- 3a. INTUIT -->
+        <div class="era" id="intuit">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Aug 2025 → Present</p>
+                        <h3 class="era-title">Intuit <span class="era-role">· Senior Software Engineer, Data Comprehension</span></h3>
+                        <p class="era-blurb">
+                            Architecting <strong>Agentic AI</strong> and <strong>self-serve ML</strong> platforms —
+                            moving the org from assistive AI to <em>autonomous execution</em>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Story card: CUA -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">0 → 1</p>
+                        <h4 class="story-title">Computer Use Agent</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Operational workflows required manual multi-step execution across tools — login, navigation, data extraction — leading to inefficiency and deep human dependency.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Designed and built a <strong>browser-based AI agent</strong> capable of executing real workflows end-to-end.</li>
+                                    <li>Combined <strong>LLM reasoning + a deterministic execution layer</strong> for reliability.</li>
+                                    <li>Built a <strong>secure credential vault</strong> to safely automate sensitive operations.</li>
+                                    <li>Designed the system for <strong>multi-step decision-making</strong> — not just single actions.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Eliminated repetitive manual workflows.</li>
+                                    <li>Automated complex real-world tasks beyond pure APIs.</li>
+                                    <li>Created the foundation for agentic automation across products.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Moves systems from <em>assistive AI</em> → <strong>autonomous execution</strong> — which is where real leverage is.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Python</span>
+                            <span class="story-chip">LLMs</span>
+                            <span class="story-chip">Agentic AI</span>
+                            <span class="story-chip">Playwright</span>
+                            <span class="story-chip">OAuth / Vault</span>
+                            <span class="story-chip">AWS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Story card: Figma MCP -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Design → Code</p>
+                        <h4 class="story-title">Figma → Code System <span class="story-muted">(MCP-based)</span></h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Frontend development bottlenecked by manual translation of designs → code, causing delays and design-system drift.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Built a design-to-code system using <strong>structured prompting via Model Context Protocol (MCP)</strong>.</li>
+                                    <li>Designed a pipeline to convert Figma components into <strong>production-ready code</strong>.</li>
+                                    <li>Focused on <strong>deterministic output + structural accuracy</strong>, not generative guesses.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li><span class="metric" data-metric="99.9" data-suffix="%+">0</span> accuracy on structured UI components.</li>
+                                    <li>Significantly reduced frontend development effort.</li>
+                                    <li>Enabled faster iteration cycles between design and engineering.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Turns UI development into a <strong>programmable system</strong>, not a manual process.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">TypeScript</span>
+                            <span class="story-chip">Node</span>
+                            <span class="story-chip">MCP</span>
+                            <span class="story-chip">Figma API</span>
+                            <span class="story-chip">LLMs</span>
+                            <span class="story-chip">Prompt Engineering</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Story card: LLM Extraction Platform -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Platform</p>
+                        <h4 class="story-title">LLM Extraction Platform</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Document processing required multiple tools with no unified abstraction — leading to duplication and vendor lock-in.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Designed a <strong>multi-provider abstraction layer</strong> supporting <strong>Google DocAI</strong> and <strong>AWS Textract</strong>.</li>
+                                    <li>Built a <strong>self-serve platform</strong> enabling teams to train and deploy extraction workflows.</li>
+                                    <li>Focused on <strong>extensibility</strong> and plug-and-play model integration.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Reduced duplication across teams.</li>
+                                    <li>Enabled scalable adoption of AI workflows.</li>
+                                    <li>Decoupled product logic from underlying AI providers.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Transforms AI from <em>feature-level usage</em> → <strong>platform-level capability</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Python</span>
+                            <span class="story-chip">LLMs</span>
+                            <span class="story-chip">AWS Textract</span>
+                            <span class="story-chip">Google DocAI</span>
+                            <span class="story-chip">Kafka</span>
+                            <span class="story-chip">Platform Design</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- 3b. JP MORGAN -->
+        <div class="era" id="jpmorgan">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-building-columns"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Apr 2023 → Aug 2025</p>
+                        <h3 class="era-title">JP Morgan Chase <span class="era-role">· Software Engineer III</span></h3>
+                        <p class="era-blurb">
+                            Modernizing and scaling <strong>mission-critical data platforms</strong> —
+                            proving engineering can translate directly into firm-wide cost and inclusion outcomes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Impact counter strip -->
+                <div class="counters">
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="counter-prefix">$</span><span class="metric" data-metric="150" data-suffix="K+">0</span></div>
+                        <p class="counter-label">annual cost savings delivered</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="metric" data-metric="40" data-suffix="M">0</span></div>
+                        <p class="counter-label">requests / day handled reliably</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="counter-text">Java 8 → 21</span></div>
+                        <p class="counter-label">firm-wide runtime upgrade led</p>
+                    </div>
+                </div>
+
+                <!-- Story: Data Platform -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Scale</p>
+                        <h4 class="story-title">High-Scale Data Platform</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Legacy infrastructure with deep inefficiencies, high cost, and scaling limits on one of the firm's most critical data platforms.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Led <strong>NADC migration</strong> and <strong>Apache upgrades</strong> across critical systems.</li>
+                                    <li>Designed <strong>high-throughput streaming pipelines</strong> handling large-scale data flows.</li>
+                                    <li>Migrated systems from <strong>Java 8 → Java 21</strong>, improving performance and maintainability.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Delivered <strong>$150K+ annual cost savings</strong>.</li>
+                                    <li>Scaled the system to handle <strong>~40M requests / day</strong> reliably.</li>
+                                    <li>Reduced latency and improved overall system efficiency.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Demonstrates the ability to <strong>scale and modernize mission-critical systems</strong> without stalling the business.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Java 21</span>
+                            <span class="story-chip">Spring Boot</span>
+                            <span class="story-chip">Kafka</span>
+                            <span class="story-chip">Apache Ecosystem</span>
+                            <span class="story-chip">AWS</span>
+                            <span class="story-chip">Streaming Pipelines</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Story: Enable Me Access -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-universal-access"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">NGO partnership · Tech Lead · Team of 10</p>
+                        <h4 class="story-title">Enable Me Access</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>
+                                    Core internal tools at JPMC had silent barriers for differently-abled employees. The firm took on an <strong>NGO-driven initiative</strong>
+                                    to retrofit real accessibility into production systems — not a checkbox audit, a deep engineering refactor.
+                                </p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Served as the <strong>Tech Lead for a 10-engineer team</strong> delivering the initiative end-to-end.</li>
+                                    <li>Partnered directly with the <strong>NGO</strong> and internal accessibility SMEs to translate lived-user needs into technical requirements.</li>
+                                    <li>Owned architecture, delivery plan, and review bar; set up a code-review + pairing culture so accessibility became a habit, not a patch.</li>
+                                    <li>Drove backend implementation, integration across product teams, and rollout through phased releases.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Made core JPMC internal tools genuinely usable for <strong>differently-abled employees</strong> across the firm.</li>
+                                    <li>Led <strong>10 engineers</strong> through the largest cross-team accessibility delivery of the year — shipped on schedule.</li>
+                                    <li>Delivered <strong>social + org-level impact</strong>, well beyond the usual engineering KPI surface.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>
+                                    My first real leadership stretch — leading through <em>influence, NGO alignment, and technical rigor</em>.
+                                    Proof that engineering can ship human impact, not just cost savings.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Java</span>
+                            <span class="story-chip">Spring Boot</span>
+                            <span class="story-chip">Accessibility (WCAG / ARIA)</span>
+                            <span class="story-chip">Tech Leadership</span>
+                            <span class="story-chip">Team of 10</span>
+                            <span class="story-chip">NGO Partnership</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- 3c. LOCUS -->
+        <div class="era" id="locus">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Jan 2022 → Mar 2023</p>
+                        <h3 class="era-title">Locus.sh <span class="era-role">· SDE-II, Backend</span></h3>
+                        <p class="era-blurb">
+                            Architecting the logistics engine that powered <em>every client journey</em> —
+                            a direct example of engineering → business-impact linkage.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Impact counters -->
+                <div class="counters">
+                    <div class="counter" data-reveal>
+                        <div class="counter-value">~<span class="metric" data-metric="20" data-suffix="%">0</span></div>
+                        <p class="counter-label">of company revenue influenced</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="metric" data-metric="70" data-suffix="%+">0</span></div>
+                        <p class="counter-label">throughput increase on hot paths</p>
+                    </div>
+                </div>
+
+                <!-- Story: Dispatch Wave -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-boxes-stacked"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Core engine</p>
+                        <h4 class="story-title">Dispatch Wave Framework</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Inefficient logistics planning was limiting system throughput and, directly, business scalability.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Architected a <strong>core dispatch framework</strong> powering logistics optimization.</li>
+                                    <li>Designed the system for <strong>high throughput and scalability</strong>.</li>
+                                    <li>Built <strong>secure orchestration flows</strong> aligned with ISO / SecOps compliance.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Contributed to <strong>~20% of company revenue</strong>.</li>
+                                    <li>Increased system throughput by <strong>70%+</strong> on critical flows.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Direct example of <strong>engineering → business-impact linkage</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Java</span>
+                            <span class="story-chip">Spring Boot</span>
+                            <span class="story-chip">AWS</span>
+                            <span class="story-chip">SQL</span>
+                            <span class="story-chip">Kafka</span>
+                            <span class="story-chip">ISO / SecOps</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- 3d. HASHEDIN -->
+        <div class="era" id="hashedin">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Mar 2021 → Jan 2022</p>
+                        <h3 class="era-title">HashedIn by Deloitte <span class="era-role">· Software Engineer II · HCSC Project</span></h3>
+                        <p class="era-blurb">
+                            Led backend for a pod on a <strong>regulated healthcare</strong> platform —
+                            where safety, auditability, and backward compatibility were non-negotiable.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Impact counters -->
+                <div class="counters">
+                    <div class="counter" data-reveal>
+                        <div class="counter-value">~<span class="metric" data-metric="25" data-suffix="%">0</span></div>
+                        <p class="counter-label">improvement in legacy modularity</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value">~<span class="metric" data-metric="15" data-suffix="%">0</span></div>
+                        <p class="counter-label">reduction in production defects</p>
+                    </div>
+                </div>
+
+                <!-- Story: Mass Plan Update framework -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Reusable framework</p>
+                        <h4 class="story-title">Mass Plan Update Framework</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>HCSC needed to perform large, coordinated updates to insurance plan data across distributed stores — previously a manual, DBA-heavy, risky process with no safe rollback path.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Led the backend team for one of the <strong>HCSC pods</strong>.</li>
+                                    <li>Designed and shipped a <strong>generic Mass Plan Update framework</strong> — configuration-driven, transactional, and auditable.</li>
+                                    <li>Built a reusable framework for <strong>screen comparison and Excel data population</strong>, collapsing days of manual QA into minutes.</li>
+                                    <li>Drove legacy refactors in a regulated codebase — tightening boundaries and reducing cross-module coupling.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Enabled <strong>bulk, safe modifications</strong> across distributed datastores.</li>
+                                    <li>Improved legacy modularity by <strong>~25%</strong> and cut production defects by <strong>~15%</strong>.</li>
+                                    <li>Replaced a repetitive QA/ops loop with a <strong>single configurable pipeline</strong>.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Healthcare taught me to think in terms of <em>safety, audits, and backward compatibility</em> from day one — habits that still show up in everything I build.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Java</span>
+                            <span class="story-chip">Spring</span>
+                            <span class="story-chip">Spring Batch</span>
+                            <span class="story-chip">SQL</span>
+                            <span class="story-chip">Healthcare / HCSC</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- 3e. AIRTEL X-LABS -->
+        <div class="era" id="airtel">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Jun 2020 → Mar 2021</p>
+                        <h3 class="era-title">Airtel X-Labs <span class="era-role">· Software Engineer · Airtel IQ</span></h3>
+                        <p class="era-blurb">
+                            Built <strong>carrier-grade</strong> pieces of Airtel IQ's cloud communication suite —
+                            where protocols, latency, and regulation leave no room for sloppy abstractions.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Impact counters -->
+                <div class="counters">
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="metric" data-metric="10" data-suffix="K+ TPS">0</span></div>
+                        <p class="counter-label">sustained on the SMS platform</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value">~<span class="metric" data-metric="95" data-suffix="%">0</span></div>
+                        <p class="counter-label">reduction in call-recording disk usage</p>
+                    </div>
+                </div>
+
+                <!-- Story: Enterprise SMS platform -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-message"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">0 → 1 · 2-person team</p>
+                        <h4 class="story-title">Enterprise SMS Platform &amp; Call-Flow Builder</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Airtel IQ was building its cloud communication suite from scratch. It needed an <strong>enterprise SMS platform</strong> with carrier-grade throughput, plus a programmable call-flow experience — all under protocol-level and regulatory constraints.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>As a <strong>2-person team</strong>, owned the end-to-end design and delivery of the enterprise SMS solution.</li>
+                                    <li>Implemented critical communication flows across <strong>SIP, SMPP, SMTP</strong> protocols.</li>
+                                    <li>Built a <strong>dynamic call-flow builder</strong> so customers could compose their own IVR / journey graphs.</li>
+                                    <li>Designed a <strong>call-recording conversion and encryption</strong> pipeline that met audit requirements while dramatically shrinking storage.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Sustained <strong>10K+ TPS</strong> on the SMS platform.</li>
+                                    <li>Reduced call-recording disk utilization by <strong>~95%</strong>.</li>
+                                    <li>Shipped <strong>customer-programmable call flows</strong>, unlocking new self-serve use cases.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>Owning a product as a tiny team, with real users and real regulators watching, is the fastest way to learn what "production" actually means.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Java</span>
+                            <span class="story-chip">Spring</span>
+                            <span class="story-chip">Python</span>
+                            <span class="story-chip">Django</span>
+                            <span class="story-chip">MongoDB</span>
+                            <span class="story-chip">Elasticsearch</span>
+                            <span class="story-chip">SIP / SMPP / SMTP</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- 3f. HACKEREARTH -->
+        <div class="era" id="hackerearth">
+            <div class="container">
+                <div class="era-head">
+                    <div class="era-logo" aria-hidden="true">
+                        <i class="fas fa-gauge-high"></i>
+                    </div>
+                    <div>
+                        <p class="era-meta">Dec 2019 → Jun 2020</p>
+                        <h3 class="era-title">HackerEarth <span class="era-role">· Engineering Intern, Backend · Core-apps team</span></h3>
+                        <p class="era-blurb">
+                            First real lesson that <strong>speed-of-iteration is the product</strong> when you're a platform.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Impact counters -->
+                <div class="counters">
+                    <div class="counter" data-reveal>
+                        <div class="counter-value">&gt;<span class="metric" data-metric="90" data-suffix="%">0</span></div>
+                        <p class="counter-label">reduction in candidate test-page load time</p>
+                    </div>
+                    <div class="counter" data-reveal>
+                        <div class="counter-value"><span class="metric" data-metric="10" data-suffix="×">0</span></div>
+                        <p class="counter-label">concurrent candidates unlocked at peak</p>
+                    </div>
+                </div>
+
+                <!-- Story: Performance + REST migration -->
+                <article class="story">
+                    <div class="story-icon" aria-hidden="true">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="story-body">
+                        <p class="story-eyebrow">Performance · Platform</p>
+                        <h4 class="story-title">Test-Page + IDE Performance &amp; REST Migration</h4>
+
+                        <div class="story-blocks">
+                            <div class="story-block" data-block="problem">
+                                <h5><span class="story-block-label">Problem</span></h5>
+                                <p>Candidate test pages (including the in-browser IDE) were slow to load, and the monolithic Django codebase made it hard to scale as hiring drives grew.</p>
+                            </div>
+
+                            <div class="story-block" data-block="did">
+                                <h5><span class="story-block-label">What I did</span></h5>
+                                <ul>
+                                    <li>Optimized the <strong>Candidate test page + IDE</strong> load path end-to-end.</li>
+                                    <li>Co-led migration of the codebase to a <strong>RESTful architecture</strong> using Django REST Framework.</li>
+                                    <li>Revamped the <strong>test creation interface</strong> used by recruiters.</li>
+                                    <li>Tuned the <strong>code-engine, logging, and analytics</strong> pipelines.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="impact">
+                                <h5><span class="story-block-label">Impact</span></h5>
+                                <ul>
+                                    <li>Cut test-page load time by <strong>&gt;90%</strong>.</li>
+                                    <li>Enabled the platform to scale to <strong>~10× concurrent candidates</strong> at peak.</li>
+                                    <li>Made the codebase much easier to evolve after the REST migration.</li>
+                                </ul>
+                            </div>
+
+                            <div class="story-block" data-block="why">
+                                <h5><span class="story-block-label">Why it matters</span></h5>
+                                <p>When your users are being <em>judged live</em> on your UI, every ms matters — this is where I internalised that performance is a feature.</p>
+                            </div>
+                        </div>
+
+                        <div class="story-stack">
+                            <span class="story-stack-label">Stack</span>
+                            <span class="story-chip">Python</span>
+                            <span class="story-chip">Django</span>
+                            <span class="story-chip">DRF</span>
+                            <span class="story-chip">MySQL</span>
+                            <span class="story-chip">C++</span>
+                            <span class="story-chip">Performance Eng</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3g. SKILLS -->
+    <section class="section section-skills" id="skills">
+        <div class="container">
+            <header class="section-head">
+                <p class="kicker" data-reveal>Skills</p>
+                <h2 class="section-title" data-reveal>What I actually work with.</h2>
+                <p class="section-sub" data-reveal>
+                    Strength is estimated by <em>depth of use</em> across
+                    <strong>Intuit</strong>, <strong>JP Morgan</strong>, <strong>Locus.sh</strong>,
+                    <strong>HashedIn by Deloitte</strong>, <strong>Airtel X-Labs</strong>, and <strong>HackerEarth</strong> —
+                    not by "have heard of it once."
+                </p>
+            </header>
+
+            <div class="skill-groups">
+                <!-- Languages -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        Languages
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Java</span><span class="skill-score" data-score="95">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="95"></span></div>
+                            <p class="skill-meta">JPM, Locus, HashedIn, Airtel — 6+ yrs of production Java</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Python</span><span class="skill-score" data-score="88">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="88"></span></div>
+                            <p class="skill-meta">Intuit AI/LLM platforms, Airtel IQ, HackerEarth (Django)</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">SQL</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">Postgres / MySQL — schemas, indexes, query tuning in prod</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">JavaScript / TypeScript</span><span class="skill-score" data-score="65">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="65"></span></div>
+                            <p class="skill-meta">Figma MCP tooling, light frontend + Node scripts</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">C++</span><span class="skill-score" data-score="45">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="45"></span></div>
+                            <p class="skill-meta">Code-engine tuning at HackerEarth, academic depth</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Backend & Frameworks -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-server" aria-hidden="true"></i>
+                        Backend &amp; Frameworks
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Spring Boot / Spring</span><span class="skill-score" data-score="95">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="95"></span></div>
+                            <p class="skill-meta">JPM, Locus, HashedIn, Airtel — primary backend framework</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">REST API design</span><span class="skill-score" data-score="92">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="92"></span></div>
+                            <p class="skill-meta">Contract-first APIs across every role</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Distributed systems / System design</span><span class="skill-score" data-score="90">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="90"></span></div>
+                            <p class="skill-meta">Dispatch Wave, LLM extraction, SMS platform — 0→1 &amp; scale</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Django / DRF</span><span class="skill-score" data-score="75">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="75"></span></div>
+                            <p class="skill-meta">HackerEarth + Airtel IQ — REST migrations and services</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Spring Batch</span><span class="skill-score" data-score="72">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="72"></span></div>
+                            <p class="skill-meta">HashedIn — Mass Plan Update framework</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">OOP / Clean architecture</span><span class="skill-score" data-score="90">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="90"></span></div>
+                            <p class="skill-meta">Interfaces, boundaries, testability — reflex by now</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI / ML / LLMs -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-brain" aria-hidden="true"></i>
+                        AI / ML &amp; LLMs
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">LLM systems &amp; prompt engineering</span><span class="skill-score" data-score="88">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="88"></span></div>
+                            <p class="skill-meta">Intuit Data Comprehension — production LLM workflows</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Agentic AI / tool-using agents</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">CUA — browser-based agent with deterministic execution</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">MCP (Model Context Protocol)</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">Figma → Code MCP integration + internal MCP tooling</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Self-serve ML platforms</span><span class="skill-score" data-score="78">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="78"></span></div>
+                            <p class="skill-meta">Platform architecture for ML onboarding at Intuit</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">LLM extraction (Textract, DocAI)</span><span class="skill-score" data-score="75">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="75"></span></div>
+                            <p class="skill-meta">Document understanding pipelines end-to-end</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Embeddings / RAG / vector search</span><span class="skill-score" data-score="70">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="70"></span></div>
+                            <p class="skill-meta">Retrieval design for grounded LLM responses</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Data & Messaging -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-database" aria-hidden="true"></i>
+                        Data &amp; Messaging
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Kafka</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">Event backbones at Intuit, JPM, Locus</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">PostgreSQL / MySQL (RDBMS)</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">Modeling, indexing, migrations in production</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">MongoDB</span><span class="skill-score" data-score="75">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="75"></span></div>
+                            <p class="skill-meta">Airtel IQ — primary store for SMS / call-flow data</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Elasticsearch</span><span class="skill-score" data-score="72">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="72"></span></div>
+                            <p class="skill-meta">Airtel IQ — search + analytics on comms data</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">RabbitMQ</span><span class="skill-score" data-score="68">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="68"></span></div>
+                            <p class="skill-meta">Async workflows in the SMS / call-flow stack</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Redis / caching</span><span class="skill-score" data-score="72">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="72"></span></div>
+                            <p class="skill-meta">Hot-path caching at Locus &amp; Intuit</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cloud & Infra -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-cloud" aria-hidden="true"></i>
+                        Cloud &amp; Infra
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">AWS</span><span class="skill-score" data-score="82">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="82"></span></div>
+                            <p class="skill-meta">Locus + Intuit — EC2, S3, Lambda, IAM, networking</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Docker</span><span class="skill-score" data-score="80">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="80"></span></div>
+                            <p class="skill-meta">Containerized services across every recent role</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Kubernetes</span><span class="skill-score" data-score="70">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="70"></span></div>
+                            <p class="skill-meta">Service deployment + scaling in prod</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">CI / CD</span><span class="skill-score" data-score="78">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="78"></span></div>
+                            <p class="skill-meta">Pipelines, gated deploys, release hygiene</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Observability &amp; ops</span><span class="skill-score" data-score="72">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="72"></span></div>
+                            <p class="skill-meta">Metrics, logs, tracing — debugging prod under pressure</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Protocols & Practice -->
+                <div class="skill-group" data-reveal>
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                        Protocols &amp; Engineering Practice
+                    </h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">SIP / SMPP / SMTP</span><span class="skill-score" data-score="70">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="70"></span></div>
+                            <p class="skill-meta">Airtel IQ — carrier-grade comms protocols</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Security &amp; OAuth / credential flows</span><span class="skill-score" data-score="75">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="75"></span></div>
+                            <p class="skill-meta">Intuit CUA credential vault, regulated-data work</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Performance engineering</span><span class="skill-score" data-score="85">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="85"></span></div>
+                            <p class="skill-meta">HackerEarth, Airtel, Locus — real latency wins</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">0 → 1 product building</span><span class="skill-score" data-score="88">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="88"></span></div>
+                            <p class="skill-meta">CUA, Figma MCP, Airtel SMS — greenfield from scratch</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill-head"><span class="skill-name">Technical leadership &amp; mentorship</span><span class="skill-score" data-score="82">0</span></div>
+                            <div class="skill-bar"><span class="skill-fill" data-skill="82"></span></div>
+                            <p class="skill-meta">Pod lead at HashedIn, cross-team tech decisions at Intuit</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. HOW I THINK -->
+    <section class="section section-thinking" id="thinking">
+        <div class="container">
+            <header class="section-head">
+                <p class="kicker" data-reveal>How I think</p>
+                <h2 class="section-title" data-reveal>Principles, not slogans.</h2>
+            </header>
+
+            <div class="principles">
+                <article class="principle" data-reveal>
+                    <div class="principle-num">01</div>
+                    <i class="principle-icon fas fa-bullseye" aria-hidden="true"></i>
+                    <h3>Impact over activity</h3>
+                    <p>I ask <em>what changes because this exists?</em> — and design backward from that.</p>
+                </article>
+
+                <article class="principle" data-reveal>
+                    <div class="principle-num">02</div>
+                    <i class="principle-icon fas fa-cubes" aria-hidden="true"></i>
+                    <h3>Systems, not features</h3>
+                    <p>Features ship; systems compound. I prefer the primitives that unlock the next ten features.</p>
+                </article>
+
+                <article class="principle" data-reveal>
+                    <div class="principle-num">03</div>
+                    <i class="principle-icon fas fa-compass" aria-hidden="true"></i>
+                    <h3>Comfort with 0&nbsp;→&nbsp;1</h3>
+                    <p>Ambiguity, unclear scope, undefined success metrics — this is where I do my best work.</p>
+                </article>
+
+                <article class="principle" data-reveal>
+                    <div class="principle-num">04</div>
+                    <i class="principle-icon fas fa-stopwatch-20" aria-hidden="true"></i>
+                    <h3>Iteration speed + longevity</h3>
+                    <p>Optimize for the shortest honest feedback loop — without mortgaging the architecture.</p>
+                </article>
+
+                <article class="principle" data-reveal>
+                    <div class="principle-num">05</div>
+                    <i class="principle-icon fas fa-infinity" aria-hidden="true"></i>
+                    <h3>Leverage, always</h3>
+                    <p>Automation, platforms, abstractions — anything that turns linear effort into compounding capability.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BEYOND WORK -->
+    <section class="section section-beyond" id="beyond">
+        <div class="container">
+            <header class="section-head">
+                <p class="kicker" data-reveal>Beyond work</p>
+                <h2 class="section-title" data-reveal>The hobbies are the training ground.</h2>
+                <p class="section-sub" data-reveal>
+                    The habits I've picked up outside the keyboard quietly shape how I build and debug production systems.
+                </p>
+            </header>
+
+            <div class="beyond-story" data-reveal>
+                <div class="beyond-visual" aria-hidden="true">
+                    <span class="beyond-emoji">🪂</span>
+                </div>
+                <div class="beyond-text">
+                    <p class="kicker-small">Paragliding</p>
+                    <h3>Decision-making under uncertainty.</h3>
+                    <p>
+                        Flying is real-time decision-making — wind, terrain, and safety margins all change constantly.
+                        It's trained me to stay calm, make fast decisions, and trust systems under pressure.
+                        Directly transferable to <strong>production incidents and debugging under failure</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="beyond-story beyond-story-reverse" data-reveal>
+                <div class="beyond-visual" aria-hidden="true">
+                    <span class="beyond-emoji">🌊</span>
+                </div>
+                <div class="beyond-text">
+                    <p class="kicker-small">Scuba Diving</p>
+                    <h3>Small imbalances, large consequences.</h3>
+                    <p>
+                        Diving exposes you to complex, silent ecosystems where tiny imbalances have outsized effects.
+                        That shaped how I think about <strong>distributed systems</strong> —
+                        observability, stability, and graceful failure handling.
+                    </p>
+                </div>
+            </div>
+
+            <div class="beyond-story" data-reveal>
+                <div class="beyond-visual" aria-hidden="true">
+                    <span class="beyond-emoji">✍️</span>
+                </div>
+                <div class="beyond-text">
+                    <p class="kicker-small">Writing</p>
+                    <h3>Clarity of thought, clarity of code.</h3>
+                    <p>
+                        Writing poems and stories since 13 (Hindi &amp; English) sharpened
+                        <strong>clarity of thought and communication</strong>. That shows up in
+                        better system designs, simpler explanations of complex ideas, and slower — deeper — thinking before building.
+                    </p>
+                </div>
+            </div>
+
+            <div class="beyond-story beyond-story-reverse" data-reveal>
+                <div class="beyond-visual" aria-hidden="true">
+                    <span class="beyond-emoji">🏂</span>
+                </div>
+                <div class="beyond-text">
+                    <p class="kicker-small">Skiing &amp; Snowboarding</p>
+                    <h3>Balance, commitment, recovery.</h3>
+                    <p>
+                        Trained snow skier, and increasingly at home on a snowboard too. Both sports drill the same loop —
+                        <strong>commit to an edge, read the terrain, recover fast when it goes wrong</strong>.
+                        Exactly the instinct I rely on when something goes sideways in production.
+                    </p>
+                </div>
+            </div>
+
+            <div class="beyond-story" data-reveal>
+                <div class="beyond-visual" aria-hidden="true">
+                    <span class="beyond-emoji">🥾</span>
+                </div>
+                <div class="beyond-text">
+                    <p class="kicker-small">Adventure · Hiking · Travel · Sports</p>
+                    <h3>Always up for the next uncomfortable new thing.</h3>
+                    <p>
+                        <strong>15+ Indian states</strong> travelled so far, plus long bike trips, regular hikes,
+                        and a standing "yes" to pretty much any <strong>adventure sport or team sport</strong> on offer.
+                        It keeps me grounded, curious, and — honestly — better at thinking clearly when a problem is much bigger than me.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. EDUCATION -->
+    <section class="section" id="education">
+        <div class="container">
+            <header class="section-head">
+                <p class="kicker" data-reveal>Education</p>
+                <h2 class="section-title" data-reveal>Always learning.</h2>
+            </header>
+
+            <ol class="timeline">
+                <li class="timeline-item" data-reveal>
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <p class="timeline-date">Apr 2026 → Present</p>
+                        <h3>M.Tech · AI / ML</h3>
+                        <p class="timeline-where">BITS Pilani</p>
+                        <p class="timeline-desc">
+                            Pursuing an industry-focused Master's alongside full-time work, deepening formal grounding
+                            in modern ML, deep learning, and applied AI systems.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="timeline-item" data-reveal>
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <p class="timeline-date">Aug 2016 → May 2020</p>
+                        <h3>B.Tech · Computer Science Engineering</h3>
+                        <p class="timeline-where">Manipal University Jaipur</p>
+                        <p class="timeline-desc">GPA 8.34 / 10.</p>
+                    </div>
+                </li>
+
+                <li class="timeline-item" data-reveal>
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <p class="timeline-date">2014 → 2016</p>
+                        <h3>Higher Secondary · PCM + CS</h3>
+                        <p class="timeline-where">Lucknow Public School (CBSE)</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Awards / Specializations as chip grid -->
+        <div class="container">
+            <header class="section-head section-head-sm">
+                <p class="kicker" data-reveal>Awards &amp; specializations</p>
+                <h2 class="section-title" data-reveal>Recognition along the way.</h2>
+            </header>
+
+            <div class="chips">
+                <a class="chip" href="https://coursera.org/share/a7f8f02d92d988800a5bbe065518234f" target="_blank" rel="noopener noreferrer" data-reveal>
+                    <i class="fas fa-medal" aria-hidden="true"></i>
+                    Entrepreneurship Specialization — Wharton
+                </a>
+                <a class="chip" href="https://coursera.org/share/d0a6ea0ccf1665f10c04d2c0ab332df6" target="_blank" rel="noopener noreferrer" data-reveal>
+                    <i class="fas fa-medal" aria-hidden="true"></i>
+                    IBM Certified Data Scientist
+                </a>
+                <a class="chip" href="https://coursera.org/share/ec8aff4cd93c4fc4ea8e1219a4008e79" target="_blank" rel="noopener noreferrer" data-reveal>
+                    <i class="fas fa-medal" aria-hidden="true"></i>
+                    Introduction to Marketing — Wharton
+                </a>
+                <a class="chip" href="https://coursera.org/share/693b79c17c2aaae325c040fa675b39d2" target="_blank" rel="noopener noreferrer" data-reveal>
+                    <i class="fas fa-medal" aria-hidden="true"></i>
+                    Web Application Specialization — Michigan
+                </a>
+                <a class="chip" href="https://coursera.org/share/ec2d78f6d5d383c3464e7e4c2f2966f9" target="_blank" rel="noopener noreferrer" data-reveal>
+                    <i class="fas fa-medal" aria-hidden="true"></i>
+                    Web Design Specialization — Michigan
+                </a>
+
+                <span class="chip chip-trophy" data-reveal>
+                    <i class="fas fa-trophy" aria-hidden="true"></i>
+                    Regional Winner · National Top 3 — Accenture Hack@Home 2020
+                </span>
+                <span class="chip chip-trophy" data-reveal>
+                    <i class="fas fa-trophy" aria-hidden="true"></i>
+                    Winner — MindTree Techie Of The Year (Campus) 2019
+                </span>
+                <span class="chip chip-trophy" data-reveal>
+                    <i class="fas fa-trophy" aria-hidden="true"></i>
+                    Winner — Dell Hack-To-Hire 2018
+                </span>
+                <span class="chip chip-trophy" data-reveal>
+                    <i class="fas fa-trophy" aria-hidden="true"></i>
+                    Child Scientist Award — National Science Congress 2012
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <p class="kicker" data-reveal>Let's talk</p>
+            <h2 class="contact-headline" data-reveal>
+                Have a system worth building?
+                <span class="accent">I'm listening.</span>
+            </h2>
+
+            <p class="contact-sub" data-reveal>
+                Best reached through <strong>LinkedIn</strong> — I read every thoughtful message.
+            </p>
+
+            <div class="contact-socials" data-reveal>
+                <a href="https://www.linkedin.com/in/abhishekver/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/abhishekver/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.instagram.com/write_with_asa/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span>Writing</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> Abhishek Verma · Powered by AI</p>
     </div>
-</nav>
+</footer>
 
+<!-- Libraries (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 
-<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-    <div class="w-100">
-        <h1 class="mb-5">Abhishek
-            <span class="text-primary">Verma</span>
-        </h1>
-        <div class="subheading mb-5">
+<!-- Site scripts -->
+<script src="js/portfolio.js?v=10" defer></script>
+
+</body>
+</html>
 
             &emsp;<i class="fas fa-home"></i> &emsp;
             Indrapuri Colony, Lucknow
